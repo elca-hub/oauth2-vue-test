@@ -15,4 +15,12 @@ app.get('/api/mes', (req, res) => {
   res.json(data)
 })
 
+app.get('/api/private', (req, res) => {
+  res.setHeader('Content-Type', 'application/json')
+  const data = {
+    mes: 'this message is private'
+  }
+  res.json(data)
+})
+
 app.listen(port, () => console.log('Server started!'))
