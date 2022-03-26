@@ -2,7 +2,7 @@
 
 ## 使用した技術
 
-- vuex
+- vuex(未使用)
 - vue router(history mode)
 
 ## パッケージ管理ツール
