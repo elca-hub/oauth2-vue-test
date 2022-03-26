@@ -14,6 +14,7 @@ import ApiService from '@/services/ApiService'
 @Component
 export default class OwnerView extends Vue {
   public privateWords = ''
+  public timer = 0
 
   public created () {
     const initOptions: any = {
@@ -33,7 +34,7 @@ export default class OwnerView extends Vue {
           this.privateWords = res.data.mes
         })
       }
-      setInterval(() => {
+      this.timer = setInterval(() => {
         keycloak.updateToken(70).then((refreshed) => {
           if (refreshed) {
             console.log('Token refreshed')
@@ -47,6 +48,10 @@ export default class OwnerView extends Vue {
     }).catch(() => {
       console.log('failed to initialize')
     })
+  }
+
+  public beforeDestroy () {
+    clearInterval(this.timer)
   }
 }
 </script>
