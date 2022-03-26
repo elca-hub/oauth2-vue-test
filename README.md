@@ -37,7 +37,7 @@ WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 
 ユーザ名 : akamurasaki
 
-メールアドレス : akamurasaki@example.com
+メールアドレス : akamurasaki @ example.com (空白を削除)
 
 パスワード : adonokyokuiiyone
 
