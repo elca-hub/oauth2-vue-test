@@ -23,8 +23,7 @@
 ちょっと苦労したのが、`http.createServer`内のこの条件式。
 
 ```javascript
-if (req.url && req.url.startsWith('/api/private') && req.method !== 'OPTIONS'
-)
+if (req.url && req.url.startsWith('/api/private') && req.method !== 'OPTIONS')
 ```
 
 特に`req.method !== 'OPTIONS'`の部分。実はこれがない場合、
