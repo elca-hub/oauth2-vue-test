@@ -6,7 +6,7 @@
 
 >Keycloak（キークローク）は、モダンなアプリケーションやサービスで使用することを目的に開発された、シングルサインオン、アイデンティティ管理、アクセス管理（英語版）の機能を提供するオープンソースソフトウェア製品である。([wikipedia](https://ja.wikipedia.org/wiki/Keycloak))
 
-わ、わからないっピ...
+わ、わかんないっピ...
 
 要は認証機能を提供する便利なソフトウェアってことですかね。
 
@@ -113,7 +113,7 @@ http://keycloak:8080/auth/realms/testrealm/protocol/openid-connect/token/introsp
 
 です。ここでめちゃくちゃ重要なことを言いますが、`keycloak:8080`は`serviceName:port`になります。なんでそうなるか説明して。
 
-わ、わからないっピ...
+わ、わかんないっピ...
 
 curlで叩く時には`localhost:18080`とする必要があります。
 
