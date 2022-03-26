@@ -45,7 +45,11 @@ WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 
 ## ドキュメント
 
-このリポジトリはテスト・勉強用のリポジトリなので、DOCフォルダ内に解説(というかアウトプットがてらの説明)があります
+このリポジトリはテスト・勉強用のリポジトリなので、DOCフォルダ内に解説(というかアウトプットがてらの説明)があります。
+
+- [Vueについて](./DOC/AboutVue.md)
+- [keycloakについて](./DOC/AboutKeyCloak.md)
+- [ゲートウェイについて](./DOC/AboutGateway.md)
 
 ## お詫び
 
