@@ -27,11 +27,11 @@ WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 
 ## アクセス
 
-[localhost:8080(ホーム)](localhost:8080)
+[localhost:8080(ホーム)](http://localhost:8080)
 
-[localhost:8080(パブリック)](localhost:8080/about)
+[localhost:8080(パブリック)](http://localhost:8080/about)
 
-[localhost:8080(プライベート)](localhost:8080/owner) 👈アカウントが必要
+[localhost:8080(プライベート)](http://localhost:8080/owner) 👈アカウントが必要
 
 ## アカウント
 
