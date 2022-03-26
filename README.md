@@ -41,8 +41,6 @@ WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
 
 パスワード : adonokyokuiiyone
 
-<font color="gray" size="1">Adoの曲いいよね</font>
-
 ## ドキュメント
 
 このリポジトリはテスト・勉強用のリポジトリなので、DOCフォルダ内に解説(というかアウトプットがてらの説明)があります。
